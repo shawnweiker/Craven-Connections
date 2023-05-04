@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-@main
+//@main
 struct Craven_ConnectionsApp: App {
     var body: some Scene {
         WindowGroup {

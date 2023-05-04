@@ -11,6 +11,7 @@
 		F085B24E29E0981D00981BC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F085B24D29E0981D00981BC6 /* ContentView.swift */; };
 		F085B25029E0981F00981BC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F085B24F29E0981F00981BC6 /* Assets.xcassets */; };
 		F085B25329E0981F00981BC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F085B25229E0981F00981BC6 /* Preview Assets.xcassets */; };
+		F0E8523929EE169A0035D661 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E8523829EE169A0035D661 /* ColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		F085B24D29E0981D00981BC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F085B24F29E0981F00981BC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F085B25229E0981F00981BC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F0E8523829EE169A0035D661 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				F085B24D29E0981D00981BC6 /* ContentView.swift */,
 				F085B24F29E0981F00981BC6 /* Assets.xcassets */,
 				F085B25129E0981F00981BC6 /* Preview Content */,
+				F0E8523829EE169A0035D661 /* ColorExtension.swift */,
 			);
 			path = "Craven Connections";
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0E8523929EE169A0035D661 /* ColorExtension.swift in Sources */,
 				F085B24E29E0981D00981BC6 /* ContentView.swift in Sources */,
 				F085B24C29E0981D00981BC6 /* Craven_ConnectionsApp.swift in Sources */,
 			);
