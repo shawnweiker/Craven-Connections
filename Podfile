@@ -10,6 +10,7 @@ target 'CravenConnect' do
 pod 'Firebase/Analytics'
 pod 'Firebase/Auth'
 pod 'Firebase/Database'
+pod 'FirebaseUI'
 
 
 

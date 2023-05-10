@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F02663BC2A0B2ED00039B44C /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = F02663BB2A0B2ED00039B44C /* FirebaseAnalytics */; };
+		F02663BE2A0B2ED00039B44C /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F02663BD2A0B2ED00039B44C /* FirebaseAnalyticsSwift */; };
+		F02663C02A0B2ED00039B44C /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = F02663BF2A0B2ED00039B44C /* FirebaseAppCheck */; };
+		F02663C22A0B2ED00039B44C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F02663C12A0B2ED00039B44C /* FirebaseAuth */; };
+		F02663C42A0B2ED00039B44C /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = F02663C32A0B2ED00039B44C /* FirebaseCrashlytics */; };
+		F02663C62A0B2ED00039B44C /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F02663C52A0B2ED00039B44C /* FirebaseDatabaseSwift */; };
+		F02663C82A0B2ED00039B44C /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = F02663C72A0B2ED00039B44C /* FirebaseStorage */; };
 		F06AE7EC2A07193E00A4E8CC /* CravenConnectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AE7EB2A07193E00A4E8CC /* CravenConnectApp.swift */; };
 		F06AE7EE2A07193E00A4E8CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AE7ED2A07193E00A4E8CC /* ContentView.swift */; };
 		F0D8E3C22A071B8F005CBF53 /* Craven_ConnectionsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D8E3B72A071B8F005CBF53 /* Craven_ConnectionsApp.swift */; };
@@ -23,11 +30,11 @@
 		522A37A37D6677EC410CF8D4 /* Pods-CravenConnect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CravenConnect.release.xcconfig"; path = "Target Support Files/Pods-CravenConnect/Pods-CravenConnect.release.xcconfig"; sourceTree = "<group>"; };
 		541E3D465D810DD4F60D9736 /* Pods_CravenConnect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CravenConnect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D8A24BD7BC00D919B2208C7 /* Pods-CravenConnect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CravenConnect.debug.xcconfig"; path = "Target Support Files/Pods-CravenConnect/Pods-CravenConnect.debug.xcconfig"; sourceTree = "<group>"; };
+		F02663B92A0B2D130039B44C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F06AE7E82A07193E00A4E8CC /* CravenConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CravenConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06AE7EB2A07193E00A4E8CC /* CravenConnectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CravenConnectApp.swift; sourceTree = "<group>"; };
 		F06AE7ED2A07193E00A4E8CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F06AE7EF2A07193E00A4E8CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F0D8E3B62A071B8F005CBF53 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F0D8E3B72A071B8F005CBF53 /* Craven_ConnectionsApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Craven_ConnectionsApp.swift; sourceTree = "<group>"; };
 		F0D8E3B82A071B8F005CBF53 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0D8E3B92A071B8F005CBF53 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
@@ -44,6 +51,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F02663C62A0B2ED00039B44C /* FirebaseDatabaseSwift in Frameworks */,
+				F02663C02A0B2ED00039B44C /* FirebaseAppCheck in Frameworks */,
+				F02663C22A0B2ED00039B44C /* FirebaseAuth in Frameworks */,
+				F02663BE2A0B2ED00039B44C /* FirebaseAnalyticsSwift in Frameworks */,
+				F02663C42A0B2ED00039B44C /* FirebaseCrashlytics in Frameworks */,
+				F02663C82A0B2ED00039B44C /* FirebaseStorage in Frameworks */,
+				F02663BC2A0B2ED00039B44C /* FirebaseAnalytics in Frameworks */,
 				FB8FC54217E2941DACF02795 /* Pods_CravenConnect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,7 +108,7 @@
 				F0D8E3B92A071B8F005CBF53 /* ColorExtension.swift */,
 				F0D8E3B72A071B8F005CBF53 /* Craven_ConnectionsApp.swift */,
 				F0D8E3BA2A071B8F005CBF53 /* Extensions.swift */,
-				F0D8E3B62A071B8F005CBF53 /* GoogleService-Info.plist */,
+				F02663B92A0B2D130039B44C /* GoogleService-Info.plist */,
 				F0D8E3C02A071B8F005CBF53 /* LoginView.swift */,
 				F0D8E3BB2A071B8F005CBF53 /* Preview Content */,
 				F0D8E3BD2A071B8F005CBF53 /* TranscriptionView.swift */,
@@ -125,12 +139,22 @@
 				F06AE7E42A07193E00A4E8CC /* Sources */,
 				F06AE7E52A07193E00A4E8CC /* Frameworks */,
 				C70F38836BE4BEB450EB400B /* [CP] Embed Pods Frameworks */,
+				C31EB3BF1FFBA817B4B6A101 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = CravenConnect;
+			packageProductDependencies = (
+				F02663BB2A0B2ED00039B44C /* FirebaseAnalytics */,
+				F02663BD2A0B2ED00039B44C /* FirebaseAnalyticsSwift */,
+				F02663BF2A0B2ED00039B44C /* FirebaseAppCheck */,
+				F02663C12A0B2ED00039B44C /* FirebaseAuth */,
+				F02663C32A0B2ED00039B44C /* FirebaseCrashlytics */,
+				F02663C52A0B2ED00039B44C /* FirebaseDatabaseSwift */,
+				F02663C72A0B2ED00039B44C /* FirebaseStorage */,
+			);
 			productName = CravenConnect;
 			productReference = F06AE7E82A07193E00A4E8CC /* CravenConnect.app */;
 			productType = "com.apple.product-type.application";
@@ -159,6 +183,9 @@
 				Base,
 			);
 			mainGroup = F06AE7DF2A07193E00A4E8CC;
+			packageReferences = (
+				F02663BA2A0B2ED00039B44C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = F06AE7E92A07193E00A4E8CC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -169,6 +196,23 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		C31EB3BF1FFBA817B4B6A101 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CravenConnect/Pods-CravenConnect-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CravenConnect/Pods-CravenConnect-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CravenConnect/Pods-CravenConnect-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C70F38836BE4BEB450EB400B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -426,6 +470,55 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F02663BA2A0B2ED00039B44C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F02663BB2A0B2ED00039B44C /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F02663BA2A0B2ED00039B44C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		F02663BD2A0B2ED00039B44C /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F02663BA2A0B2ED00039B44C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		F02663BF2A0B2ED00039B44C /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F02663BA2A0B2ED00039B44C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		F02663C12A0B2ED00039B44C /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F02663BA2A0B2ED00039B44C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		F02663C32A0B2ED00039B44C /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F02663BA2A0B2ED00039B44C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		F02663C52A0B2ED00039B44C /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F02663BA2A0B2ED00039B44C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		F02663C72A0B2ED00039B44C /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F02663BA2A0B2ED00039B44C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F06AE7E02A07193E00A4E8CC /* Project object */;
 }
