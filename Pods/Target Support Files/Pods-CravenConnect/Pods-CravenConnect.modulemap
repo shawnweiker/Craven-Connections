@@ -1,0 +1,6 @@
+framework module Pods_CravenConnect {
+  umbrella header "Pods-CravenConnect-umbrella.h"
+
+  export *
+  module * { export * }
+}

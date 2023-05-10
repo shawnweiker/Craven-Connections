@@ -9,16 +9,34 @@
 /* Begin PBXBuildFile section */
 		F06AE7EC2A07193E00A4E8CC /* CravenConnectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AE7EB2A07193E00A4E8CC /* CravenConnectApp.swift */; };
 		F06AE7EE2A07193E00A4E8CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AE7ED2A07193E00A4E8CC /* ContentView.swift */; };
-		F06AE7F02A07193E00A4E8CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F06AE7EF2A07193E00A4E8CC /* Assets.xcassets */; };
-		F06AE7F32A07193E00A4E8CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F06AE7F22A07193E00A4E8CC /* Preview Assets.xcassets */; };
+		F0D8E3C22A071B8F005CBF53 /* Craven_ConnectionsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D8E3B72A071B8F005CBF53 /* Craven_ConnectionsApp.swift */; };
+		F0D8E3C32A071B8F005CBF53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D8E3B82A071B8F005CBF53 /* AppDelegate.swift */; };
+		F0D8E3C42A071B8F005CBF53 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D8E3B92A071B8F005CBF53 /* ColorExtension.swift */; };
+		F0D8E3C52A071B8F005CBF53 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D8E3BA2A071B8F005CBF53 /* Extensions.swift */; };
+		F0D8E3C72A071B8F005CBF53 /* TranscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D8E3BD2A071B8F005CBF53 /* TranscriptionView.swift */; };
+		F0D8E3C82A071B8F005CBF53 /* TranscriptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D8E3BE2A071B8F005CBF53 /* TranscriptionViewModel.swift */; };
+		F0D8E3CA2A071B8F005CBF53 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D8E3C02A071B8F005CBF53 /* LoginView.swift */; };
+		FB8FC54217E2941DACF02795 /* Pods_CravenConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 541E3D465D810DD4F60D9736 /* Pods_CravenConnect.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		522A37A37D6677EC410CF8D4 /* Pods-CravenConnect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CravenConnect.release.xcconfig"; path = "Target Support Files/Pods-CravenConnect/Pods-CravenConnect.release.xcconfig"; sourceTree = "<group>"; };
+		541E3D465D810DD4F60D9736 /* Pods_CravenConnect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CravenConnect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D8A24BD7BC00D919B2208C7 /* Pods-CravenConnect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CravenConnect.debug.xcconfig"; path = "Target Support Files/Pods-CravenConnect/Pods-CravenConnect.debug.xcconfig"; sourceTree = "<group>"; };
 		F06AE7E82A07193E00A4E8CC /* CravenConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CravenConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06AE7EB2A07193E00A4E8CC /* CravenConnectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CravenConnectApp.swift; sourceTree = "<group>"; };
 		F06AE7ED2A07193E00A4E8CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F06AE7EF2A07193E00A4E8CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F06AE7F22A07193E00A4E8CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F0D8E3B62A071B8F005CBF53 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F0D8E3B72A071B8F005CBF53 /* Craven_ConnectionsApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Craven_ConnectionsApp.swift; sourceTree = "<group>"; };
+		F0D8E3B82A071B8F005CBF53 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0D8E3B92A071B8F005CBF53 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		F0D8E3BA2A071B8F005CBF53 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F0D8E3BC2A071B8F005CBF53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F0D8E3BD2A071B8F005CBF53 /* TranscriptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranscriptionView.swift; sourceTree = "<group>"; };
+		F0D8E3BE2A071B8F005CBF53 /* TranscriptionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranscriptionViewModel.swift; sourceTree = "<group>"; };
+		F0D8E3BF2A071B8F005CBF53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0D8E3C02A071B8F005CBF53 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +44,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB8FC54217E2941DACF02795 /* Pods_CravenConnect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DB0AA70FF097652F1561C5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				541E3D465D810DD4F60D9736 /* Pods_CravenConnect.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F80927F8DA4FB289035E1A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D8A24BD7BC00D919B2208C7 /* Pods-CravenConnect.debug.xcconfig */,
+				522A37A37D6677EC410CF8D4 /* Pods-CravenConnect.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F06AE7DF2A07193E00A4E8CC = {
 			isa = PBXGroup;
 			children = (
 				F06AE7EA2A07193E00A4E8CC /* CravenConnect */,
 				F06AE7E92A07193E00A4E8CC /* Products */,
+				9F80927F8DA4FB289035E1A2 /* Pods */,
+				2DB0AA70FF097652F1561C5F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,18 +89,27 @@
 		F06AE7EA2A07193E00A4E8CC /* CravenConnect */ = {
 			isa = PBXGroup;
 			children = (
+				F0D8E3B82A071B8F005CBF53 /* AppDelegate.swift */,
+				F0D8E3BF2A071B8F005CBF53 /* Assets.xcassets */,
+				F0D8E3B92A071B8F005CBF53 /* ColorExtension.swift */,
+				F0D8E3B72A071B8F005CBF53 /* Craven_ConnectionsApp.swift */,
+				F0D8E3BA2A071B8F005CBF53 /* Extensions.swift */,
+				F0D8E3B62A071B8F005CBF53 /* GoogleService-Info.plist */,
+				F0D8E3C02A071B8F005CBF53 /* LoginView.swift */,
+				F0D8E3BB2A071B8F005CBF53 /* Preview Content */,
+				F0D8E3BD2A071B8F005CBF53 /* TranscriptionView.swift */,
+				F0D8E3BE2A071B8F005CBF53 /* TranscriptionViewModel.swift */,
 				F06AE7EB2A07193E00A4E8CC /* CravenConnectApp.swift */,
 				F06AE7ED2A07193E00A4E8CC /* ContentView.swift */,
 				F06AE7EF2A07193E00A4E8CC /* Assets.xcassets */,
-				F06AE7F12A07193E00A4E8CC /* Preview Content */,
 			);
 			path = CravenConnect;
 			sourceTree = "<group>";
 		};
-		F06AE7F12A07193E00A4E8CC /* Preview Content */ = {
+		F0D8E3BB2A071B8F005CBF53 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				F06AE7F22A07193E00A4E8CC /* Preview Assets.xcassets */,
+				F0D8E3BC2A071B8F005CBF53 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -74,9 +121,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F06AE7F62A07193E00A4E8CC /* Build configuration list for PBXNativeTarget "CravenConnect" */;
 			buildPhases = (
+				CCDEBD275F31AACD6DE4DEEC /* [CP] Check Pods Manifest.lock */,
 				F06AE7E42A07193E00A4E8CC /* Sources */,
 				F06AE7E52A07193E00A4E8CC /* Frameworks */,
-				F06AE7E62A07193E00A4E8CC /* Resources */,
+				C70F38836BE4BEB450EB400B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,25 +168,62 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		F06AE7E62A07193E00A4E8CC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* Begin PBXShellScriptBuildPhase section */
+		C70F38836BE4BEB450EB400B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F06AE7F32A07193E00A4E8CC /* Preview Assets.xcassets in Resources */,
-				F06AE7F02A07193E00A4E8CC /* Assets.xcassets in Resources */,
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CravenConnect/Pods-CravenConnect-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CravenConnect/Pods-CravenConnect-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CravenConnect/Pods-CravenConnect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		CCDEBD275F31AACD6DE4DEEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CravenConnect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F06AE7E42A07193E00A4E8CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0D8E3C72A071B8F005CBF53 /* TranscriptionView.swift in Sources */,
+				F0D8E3C32A071B8F005CBF53 /* AppDelegate.swift in Sources */,
+				F0D8E3C52A071B8F005CBF53 /* Extensions.swift in Sources */,
+				F0D8E3CA2A071B8F005CBF53 /* LoginView.swift in Sources */,
+				F0D8E3C82A071B8F005CBF53 /* TranscriptionViewModel.swift in Sources */,
 				F06AE7EE2A07193E00A4E8CC /* ContentView.swift in Sources */,
 				F06AE7EC2A07193E00A4E8CC /* CravenConnectApp.swift in Sources */,
+				F0D8E3C22A071B8F005CBF53 /* Craven_ConnectionsApp.swift in Sources */,
+				F0D8E3C42A071B8F005CBF53 /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +346,7 @@
 		};
 		F06AE7F72A07193E00A4E8CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D8A24BD7BC00D919B2208C7 /* Pods-CravenConnect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,6 +376,7 @@
 		};
 		F06AE7F82A07193E00A4E8CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 522A37A37D6677EC410CF8D4 /* Pods-CravenConnect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
