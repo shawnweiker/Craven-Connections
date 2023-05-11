@@ -15,7 +15,7 @@
  */
 
 #import "FirebaseDatabase/Sources/Utilities/FUtilities.h"
-#import "FirebaseCore/Extension/FirebaseCoreInternal.h"
+#import "FirebaseCore/Sources/Private/FirebaseCoreInternal.h"
 #import "FirebaseDatabase/Sources/Constants/FConstants.h"
 #import "FirebaseDatabase/Sources/Utilities/FAtomicNumber.h"
 #import "FirebaseDatabase/Sources/Utilities/FStringUtilities.h"
@@ -25,7 +25,7 @@
 #pragma mark -
 #pragma mark C functions
 
-FIRLoggerService kFIRLoggerDatabase = @"[FirebaseDatabase]";
+FIRLoggerService kFIRLoggerDatabase = @"[Firebase/Database]";
 static FLogLevel logLevel = FLogLevelInfo; // Default log level is info
 static NSMutableDictionary *options = nil;
 

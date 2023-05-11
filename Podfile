@@ -7,11 +7,15 @@ target 'CravenConnect' do
 
   # Pods for CravenConnect
 
-pod 'Firebase/Analytics'
-pod 'Firebase/Auth'
-pod 'Firebase/Database'
-pod 'FirebaseUI'
-
+  pod 'Firebase/Core', '~> 8.15.0'
+  pod 'Firebase/Analytics', '~> 8.15.0'
+  pod 'Firebase/Auth', '~> 8.15.0'
+  pod 'Firebase/Crashlytics', '~> 8.15.0'
+  pod 'Firebase/Database', '~> 8.15.0'
+  pod 'Firebase/Firestore', '~> 8.15.0'
+  pod 'Firebase/Messaging', '~> 8.15.0'
+  pod 'Firebase/RemoteConfig', '~> 8.15.0'
+  pod 'Firebase/Storage', '~> 8.15.0'
 
 
 end

@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import FirebaseCore
+//import FirebaseCore
 import Firebase
 import FirebaseUI
 
@@ -21,10 +21,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
 
-}
-
-func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
-    let sourceApplication = options[UIApplication.OpenURLOptionsKey.sourceApplication] as? String
-    let annotation = options[UIApplication.OpenURLOptionsKey.annotation]
-    return FUIAuth.defaultAuthUI()?.handleOpen(url, sourceApplication: sourceApplication, annotation: annotation) ?? false
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        let sourceApplication = options[UIApplication.OpenURLOptionsKey.sourceApplication] as? String
+        let annotation = options[UIApplication.OpenURLOptionsKey.annotation]
+        return FUIAuth.defaultAuthUI()?.handleOpen(url, sourceApplication: sourceApplication, annotation: annotation) ?? false
+    }
 }
