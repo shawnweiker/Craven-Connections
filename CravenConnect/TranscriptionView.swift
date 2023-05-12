@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import Firebase
 
 struct TranscriptionView: View {
     @ObservedObject var viewModel: TranscriptionViewModel

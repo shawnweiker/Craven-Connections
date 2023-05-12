@@ -7,18 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		905F25B1B89398EE4C4F0BA5 /* Pods_CravenConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 541E3D465D810DD4F60D9736 /* Pods_CravenConnect.framework */; };
-		F02663D92A0B7C450039B44C /* FirebaseAnalyticsSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = F02663D82A0B7C450039B44C /* FirebaseAnalyticsSwift-Beta */; };
-		F02663DB2A0B7C450039B44C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F02663DA2A0B7C450039B44C /* FirebaseAuth */; };
-		F02663DD2A0B7C450039B44C /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = F02663DC2A0B7C450039B44C /* FirebaseCrashlytics */; };
-		F02663DF2A0B7C450039B44C /* FirebaseDatabaseSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = F02663DE2A0B7C450039B44C /* FirebaseDatabaseSwift-Beta */; };
-		F02663E12A0B7C450039B44C /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = F02663E02A0B7C450039B44C /* FirebaseDynamicLinks */; };
-		F02663E32A0B7C450039B44C /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = F02663E22A0B7C450039B44C /* FirebaseFirestoreSwift-Beta */; };
-		F02663E52A0B7C450039B44C /* FirebaseFunctionsSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = F02663E42A0B7C450039B44C /* FirebaseFunctionsSwift-Beta */; };
-		F02663E72A0B7C450039B44C /* FirebaseInAppMessagingSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = F02663E62A0B7C450039B44C /* FirebaseInAppMessagingSwift-Beta */; };
-		F02663E92A0B7C450039B44C /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = F02663E82A0B7C450039B44C /* FirebasePerformance */; };
-		F02663EB2A0B7C450039B44C /* FirebaseRemoteConfigSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = F02663EA2A0B7C450039B44C /* FirebaseRemoteConfigSwift-Beta */; };
-		F02663ED2A0B7C450039B44C /* FirebaseStorageSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = F02663EC2A0B7C450039B44C /* FirebaseStorageSwift-Beta */; };
+		156DDA58A9DA6A66550DAC6A /* Pods_CravenConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B30AE78875656DB3EA6BE0C3 /* Pods_CravenConnect.framework */; };
 		F06AE7EC2A07193E00A4E8CC /* CravenConnectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AE7EB2A07193E00A4E8CC /* CravenConnectApp.swift */; };
 		F06AE7EE2A07193E00A4E8CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AE7ED2A07193E00A4E8CC /* ContentView.swift */; };
 		F0D8E3C22A071B8F005CBF53 /* Craven_ConnectionsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D8E3B72A071B8F005CBF53 /* Craven_ConnectionsApp.swift */; };
@@ -31,10 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		522A37A37D6677EC410CF8D4 /* Pods-CravenConnect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CravenConnect.release.xcconfig"; path = "Target Support Files/Pods-CravenConnect/Pods-CravenConnect.release.xcconfig"; sourceTree = "<group>"; };
-		541E3D465D810DD4F60D9736 /* Pods_CravenConnect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CravenConnect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D8A24BD7BC00D919B2208C7 /* Pods-CravenConnect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CravenConnect.debug.xcconfig"; path = "Target Support Files/Pods-CravenConnect/Pods-CravenConnect.debug.xcconfig"; sourceTree = "<group>"; };
-		F02663B92A0B2D130039B44C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		19358282556EAD84473BEC49 /* Pods-CravenConnect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CravenConnect.debug.xcconfig"; path = "Target Support Files/Pods-CravenConnect/Pods-CravenConnect.debug.xcconfig"; sourceTree = "<group>"; };
+		B30AE78875656DB3EA6BE0C3 /* Pods_CravenConnect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CravenConnect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA208B9019C98E589C107AAA /* Pods-CravenConnect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CravenConnect.release.xcconfig"; path = "Target Support Files/Pods-CravenConnect/Pods-CravenConnect.release.xcconfig"; sourceTree = "<group>"; };
 		F06AE7E82A07193E00A4E8CC /* CravenConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CravenConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06AE7EB2A07193E00A4E8CC /* CravenConnectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CravenConnectApp.swift; sourceTree = "<group>"; };
 		F06AE7ED2A07193E00A4E8CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,28 +43,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F02663DF2A0B7C450039B44C /* FirebaseDatabaseSwift-Beta in Frameworks */,
-				F02663D92A0B7C450039B44C /* FirebaseAnalyticsSwift-Beta in Frameworks */,
-				F02663EB2A0B7C450039B44C /* FirebaseRemoteConfigSwift-Beta in Frameworks */,
-				F02663E92A0B7C450039B44C /* FirebasePerformance in Frameworks */,
-				F02663E32A0B7C450039B44C /* FirebaseFirestoreSwift-Beta in Frameworks */,
-				F02663ED2A0B7C450039B44C /* FirebaseStorageSwift-Beta in Frameworks */,
-				F02663E52A0B7C450039B44C /* FirebaseFunctionsSwift-Beta in Frameworks */,
-				F02663DD2A0B7C450039B44C /* FirebaseCrashlytics in Frameworks */,
-				F02663DB2A0B7C450039B44C /* FirebaseAuth in Frameworks */,
-				905F25B1B89398EE4C4F0BA5 /* Pods_CravenConnect.framework in Frameworks */,
-				F02663E72A0B7C450039B44C /* FirebaseInAppMessagingSwift-Beta in Frameworks */,
-				F02663E12A0B7C450039B44C /* FirebaseDynamicLinks in Frameworks */,
+				156DDA58A9DA6A66550DAC6A /* Pods_CravenConnect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2DB0AA70FF097652F1561C5F /* Frameworks */ = {
+		289CBF22F04A74C725231D78 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				541E3D465D810DD4F60D9736 /* Pods_CravenConnect.framework */,
+				B30AE78875656DB3EA6BE0C3 /* Pods_CravenConnect.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -84,8 +61,8 @@
 		9F80927F8DA4FB289035E1A2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8D8A24BD7BC00D919B2208C7 /* Pods-CravenConnect.debug.xcconfig */,
-				522A37A37D6677EC410CF8D4 /* Pods-CravenConnect.release.xcconfig */,
+				19358282556EAD84473BEC49 /* Pods-CravenConnect.debug.xcconfig */,
+				BA208B9019C98E589C107AAA /* Pods-CravenConnect.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -96,7 +73,7 @@
 				F06AE7EA2A07193E00A4E8CC /* CravenConnect */,
 				F06AE7E92A07193E00A4E8CC /* Products */,
 				9F80927F8DA4FB289035E1A2 /* Pods */,
-				2DB0AA70FF097652F1561C5F /* Frameworks */,
+				289CBF22F04A74C725231D78 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,7 +93,6 @@
 				F0D8E3B92A071B8F005CBF53 /* ColorExtension.swift */,
 				F0D8E3B72A071B8F005CBF53 /* Craven_ConnectionsApp.swift */,
 				F0D8E3BA2A071B8F005CBF53 /* Extensions.swift */,
-				F02663B92A0B2D130039B44C /* GoogleService-Info.plist */,
 				F0D8E3C02A071B8F005CBF53 /* LoginView.swift */,
 				F0D8E3BB2A071B8F005CBF53 /* Preview Content */,
 				F0D8E3BD2A071B8F005CBF53 /* TranscriptionView.swift */,
@@ -143,29 +119,16 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F06AE7F62A07193E00A4E8CC /* Build configuration list for PBXNativeTarget "CravenConnect" */;
 			buildPhases = (
-				CCDEBD275F31AACD6DE4DEEC /* [CP] Check Pods Manifest.lock */,
+				9182B1837F2599D050C8538D /* [CP] Check Pods Manifest.lock */,
 				F06AE7E42A07193E00A4E8CC /* Sources */,
-				C70F38836BE4BEB450EB400B /* [CP] Embed Pods Frameworks */,
 				1CE691C5A258CF5219A937F3 /* Frameworks */,
+				C84C6F96A080055180BD1F03 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = CravenConnect;
-			packageProductDependencies = (
-				F02663D82A0B7C450039B44C /* FirebaseAnalyticsSwift-Beta */,
-				F02663DA2A0B7C450039B44C /* FirebaseAuth */,
-				F02663DC2A0B7C450039B44C /* FirebaseCrashlytics */,
-				F02663DE2A0B7C450039B44C /* FirebaseDatabaseSwift-Beta */,
-				F02663E02A0B7C450039B44C /* FirebaseDynamicLinks */,
-				F02663E22A0B7C450039B44C /* FirebaseFirestoreSwift-Beta */,
-				F02663E42A0B7C450039B44C /* FirebaseFunctionsSwift-Beta */,
-				F02663E62A0B7C450039B44C /* FirebaseInAppMessagingSwift-Beta */,
-				F02663E82A0B7C450039B44C /* FirebasePerformance */,
-				F02663EA2A0B7C450039B44C /* FirebaseRemoteConfigSwift-Beta */,
-				F02663EC2A0B7C450039B44C /* FirebaseStorageSwift-Beta */,
-			);
 			productName = CravenConnect;
 			productReference = F06AE7E82A07193E00A4E8CC /* CravenConnect.app */;
 			productType = "com.apple.product-type.application";
@@ -194,9 +157,6 @@
 				Base,
 			);
 			mainGroup = F06AE7DF2A07193E00A4E8CC;
-			packageReferences = (
-				F02663D72A0B7C450039B44C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-			);
 			productRefGroup = F06AE7E92A07193E00A4E8CC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -207,24 +167,7 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		C70F38836BE4BEB450EB400B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CravenConnect/Pods-CravenConnect-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CravenConnect/Pods-CravenConnect-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CravenConnect/Pods-CravenConnect-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CCDEBD275F31AACD6DE4DEEC /* [CP] Check Pods Manifest.lock */ = {
+		9182B1837F2599D050C8538D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -244,6 +187,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C84C6F96A080055180BD1F03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CravenConnect/Pods-CravenConnect-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CravenConnect/Pods-CravenConnect-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CravenConnect/Pods-CravenConnect-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -384,7 +344,7 @@
 		};
 		F06AE7F72A07193E00A4E8CC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D8A24BD7BC00D919B2208C7 /* Pods-CravenConnect.debug.xcconfig */;
+			baseConfigurationReference = 19358282556EAD84473BEC49 /* Pods-CravenConnect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -414,7 +374,7 @@
 		};
 		F06AE7F82A07193E00A4E8CC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 522A37A37D6677EC410CF8D4 /* Pods-CravenConnect.release.xcconfig */;
+			baseConfigurationReference = BA208B9019C98E589C107AAA /* Pods-CravenConnect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,75 +424,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		F02663D72A0B7C450039B44C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
-			requirement = {
-				kind = exactVersion;
-				version = 8.15.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		F02663D82A0B7C450039B44C /* FirebaseAnalyticsSwift-Beta */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F02663D72A0B7C450039B44C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = "FirebaseAnalyticsSwift-Beta";
-		};
-		F02663DA2A0B7C450039B44C /* FirebaseAuth */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F02663D72A0B7C450039B44C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAuth;
-		};
-		F02663DC2A0B7C450039B44C /* FirebaseCrashlytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F02663D72A0B7C450039B44C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseCrashlytics;
-		};
-		F02663DE2A0B7C450039B44C /* FirebaseDatabaseSwift-Beta */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F02663D72A0B7C450039B44C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = "FirebaseDatabaseSwift-Beta";
-		};
-		F02663E02A0B7C450039B44C /* FirebaseDynamicLinks */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F02663D72A0B7C450039B44C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseDynamicLinks;
-		};
-		F02663E22A0B7C450039B44C /* FirebaseFirestoreSwift-Beta */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F02663D72A0B7C450039B44C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = "FirebaseFirestoreSwift-Beta";
-		};
-		F02663E42A0B7C450039B44C /* FirebaseFunctionsSwift-Beta */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F02663D72A0B7C450039B44C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = "FirebaseFunctionsSwift-Beta";
-		};
-		F02663E62A0B7C450039B44C /* FirebaseInAppMessagingSwift-Beta */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F02663D72A0B7C450039B44C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = "FirebaseInAppMessagingSwift-Beta";
-		};
-		F02663E82A0B7C450039B44C /* FirebasePerformance */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F02663D72A0B7C450039B44C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebasePerformance;
-		};
-		F02663EA2A0B7C450039B44C /* FirebaseRemoteConfigSwift-Beta */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F02663D72A0B7C450039B44C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = "FirebaseRemoteConfigSwift-Beta";
-		};
-		F02663EC2A0B7C450039B44C /* FirebaseStorageSwift-Beta */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F02663D72A0B7C450039B44C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = "FirebaseStorageSwift-Beta";
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F06AE7E02A07193E00A4E8CC /* Project object */;
 }

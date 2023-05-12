@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1300"
+   LastUpgradeVersion = "1430"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "31C3C432B3591AA922175F21BAC97D68"
-               BuildableName = "Pods-CravenConnect.framework"
+               BuildableName = "Pods_CravenConnect.framework"
                BlueprintName = "Pods-CravenConnect"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

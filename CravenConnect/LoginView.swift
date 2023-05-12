@@ -6,20 +6,6 @@
 //
 
 import SwiftUI
-import Firebase
-
-let authUI = FUIAuth.defaultAuthUI()
-let providers: [FUIAuthProvider] = [
-    FUIEmailAuth(),
-    FUIGoogleAuth(),
-    FUIFacebookAuth(),
-    FUITwitterAuth(),
-    FUIOAuth.appleAuthProvider(),
-]
-authUI?.providers = providers
-
-let authViewController = authUI!.authViewController()
-present(authViewController, animated: true, completion: nil)
 
 struct LoginView: View {
     @Binding var isAuthenticated: Bool
